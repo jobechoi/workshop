@@ -20,14 +20,14 @@ This should take no more than 30 minutes. If you're stuck on any one step for mo
 
 Let's get started!
 
-###Fork the repo
+### Fork the repo
 [Fork](https://help.github.com/articles/fork-a-repo/) the **mean_adsk** repo you've been invited to: 
 
 ![](http://i68.tinypic.com/264rgao.jpg) 
 
 Keep this window on GitHub open as we'll come back to it shortly.
 
-###Create the MEAN container
+### Create the MEAN container
 Now we'll create our [CodeAnywhere cloud environment](https://codeanywhere.com/). Sign up for a [CodeAnywhere account](https://codeanywhere.com), and if use your GitHub account, you can do it in one click. 
 
 Scroll down and select the **MEAN Ubuntu 14.04 version** container. Make sure to name the container before creating it. 
@@ -38,7 +38,7 @@ Scroll down and select the **MEAN Ubuntu 14.04 version** container. Make sure to
 
 Did you know that our very own ADSK engineers are primary contributors to the [mean.io](http://mean.io/#!/) project. Check out their Slack [channel](https://autodesk.slack.com/messages/gamedev-website/details/) and join the conversation.
 
-###Clone the repo
+### Clone the repo
 In CodeAnywhere, open an **SSH Terminal** by right-clicking on your new container: 
 
 ![](http://i68.tinypic.com/33axpog.jpg)
@@ -71,7 +71,7 @@ We'll also need to run the following two commands, one line at a time (Disregard
 
 What just happened? [What's with all these commands?](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
-###Checkout the starter branch
+### Checkout the starter branch
 Next, run the following command to verify you have all of the available [branches](https://guides.github.com/activities/hello-world/) If you want to learn more about branches, go [here](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is):
  
    `git branch`
@@ -82,12 +82,12 @@ Checkout the starter branch:
  
    `git checkout starter`
 
-###Install dependencies
+### Install dependencies
 We need to install dependencies by running the following command (What are dependencies? Good question. A simple explanation is that sometimes when you install programs, they rely on other programs to work, and these other programs are called dependencies. Further understanding is not necessary for the task at hand. Let's table it.): 
 
    `npm install`
 
-###Set current working directory
+### Set current working directory
 Now you need to open your connection's config file by right-clicking on your container and choosing "Config":
 
 ![](http://i66.tinypic.com/315bkep.jpg) 
@@ -107,7 +107,7 @@ You've finished creating and configuring your first cloud development environmen
 
 Welcome to the **new** normal.
 
-##Workshop Format
+## Workshop Format
 
 We will be using a pre-configured MEAN container on a virtual integrated development environment. It comes preloaded with some of our dependencies, and will have many folders already in place. You can safely ignore all of the folders and files in the container _except_ for the folder that contains our respository (`/mean_adsk`).
 
