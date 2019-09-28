@@ -85,8 +85,6 @@ In your config file, set the current working directory to point to your `mean_ad
 
    `"cwd": "~/workspace/mean_adsk"` 
 
-![](http://i66.tinypic.com/2ljkivq.jpg)
-
 Remember to save often when you're editing files. 
 
 That's it.
