@@ -2,7 +2,7 @@
 
 Hello!
 
-This workshop is designed to introduce you to the [MEAN stack](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=what+is+mean+stack). It assumes you're starting at close to absolute zero: no development experience, never written any JavaScript code previously, and coming in with just a willingness to learn through practice. 
+This workshop is designed to introduce you to the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)). It assumes you're starting at close to absolute zero: no development experience, never written any JavaScript code previously, and coming in with just a willingness to learn through practice. 
 
 The workshop is 1/4 lecture and 3/4 hands-on, with the first 60 minutes dedicated to conceptual coverage of HTML, JavaScript, MVC, and MEAN. The following 180 minutes is dedicated to building your first MEAN web application and deploying it to the cloud.
 
@@ -21,9 +21,7 @@ This should take no more than 30 minutes. If you're stuck on any one step for mo
 Let's get started!
 
 ### Fork the repo
-[Fork](https://help.github.com/articles/fork-a-repo/) the **mean_adsk** repo you've been invited to: 
-
-![](http://i68.tinypic.com/264rgao.jpg) 
+[Fork](https://help.github.com/articles/fork-a-repo/) the **mean_adsk** repo you've been invited to.
 
 Keep this window on GitHub open as we'll come back to it shortly.
 
@@ -32,30 +30,22 @@ Now we'll create our [CodeAnywhere cloud environment](https://codeanywhere.com/)
 
 Scroll down and select the **MEAN Ubuntu 14.04 version** container. Make sure to name the container before creating it. 
 
-![](http://i68.tinypic.com/27y3nmv.png) 
-
 [Didn't see that screen? Try this optional step: Go to **File > New Connection > Container** , and then scroll down and select **MEAN Ubuntu 14.04 version**. Make sure to name the container.]
 
 Did you know that our very own ADSK engineers are primary contributors to the [mean.io](http://mean.io/#!/) project. Check out their Slack [channel](https://autodesk.slack.com/messages/gamedev-website/details/) and join the conversation.
 
 ### Clone the repo
-In CodeAnywhere, open an **SSH Terminal** by right-clicking on your new container: 
+In CodeAnywhere, open an **SSH Terminal** by right-clicking on your new container.
 
-![](http://i68.tinypic.com/33axpog.jpg)
+We're going to [clone](https://help.github.com/articles/cloning-a-repository/) the repository we forked earlier to our CodeAnywhere cloud environment. Go to your open GitHub window and copy the repository link using “**Clone with HTTPS**.”
 
-We're going to [clone](https://help.github.com/articles/cloning-a-repository/) the repository we forked earlier to our CodeAnywhere cloud environment. Go to your open GitHub window and copy the repository link using “**Clone with HTTPS**”: 
-
-![](http://i64.tinypic.com/szhhd4.jpg) 
-
-Once you've copied the link, go back to the SSH terminal in CodeAnywhere and type in the following command (The SSH terminal doesn't allow keyboard pasting (Ctrl+v), so you'll need to use the browser's right-click Paste function): 
+Once you've copied the link, go back to the SSH terminal in CodeAnywhere and type in the following command (The SSH terminal doesn't allow keyboard pasting (Ctrl+v), so you'll need to use the browser's right-click Paste function):
  
    `git clone [PASTE YOUR LINK HERE]`
 
 [You may get challenged here to enter your GitHub username and password.]
 
 Do you see a **mean_adsk** folder on the left-hand side of the CodeAnywhere environment? No? Right-click the container and **Refresh**. 
-
-![](http://i63.tinypic.com/52yzyq.jpg)
 
 We also want to navigate to the mean_adsk folder using the following command: 
 
@@ -88,9 +78,7 @@ We need to install dependencies by running the following command (What are depen
    `npm install`
 
 ### Set current working directory
-Now you need to open your connection's config file by right-clicking on your container and choosing "Config":
-
-![](http://i66.tinypic.com/315bkep.jpg) 
+Now you need to open your connection's config file by right-clicking on your container and choosing "Config."
 
 Almost done.
 In your config file, set the current working directory to point to your `mean_adsk` directory:  
